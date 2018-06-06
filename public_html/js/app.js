@@ -377,8 +377,8 @@ $("#send-mail").click(function () {
 
 function initializeMap() {
 
-    var lat = '-2.195750985647552'; //Set your latitude.
-    var lon = '-79.9195069953505'; //Set your longitude.
+    var lat = '-0.2451155339327234'; //Set your latitude.
+    var lon = '-78.53088644788511'; //Set your longitude.
 
     var centerLon = lon - 0.0105;
 
@@ -400,7 +400,7 @@ function initializeMap() {
     });
 
     var infowindow = new google.maps.InfoWindow({
-        content: "Tecnomade se encuentra aquí!"
+        content: "GSD PUBLICIDAD!"
     });
 
     google.maps.event.addListener(marker, 'click', function () {
